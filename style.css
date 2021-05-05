@@ -1,0 +1,104 @@
+
+/* <!-- 
+Mobile: 375px
+Desktop: 1440px
+ Font size (name and stats): 18px
+--> */
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+:root {
+    --clr-dark-cyan: hsl(185, 75%, 39%);
+    --clr-very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --clr-dark-grayish-blue: hsl(227, 10%, 46%);
+    --clr-dark-gray: hsl(0, 0%, 59%);
+    --ff-font: 'Kumbh Sans', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+.container {
+    background-color: hsl(185, 75%, 39%);
+    font-family: var(--ff-font);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 1440px;
+    height: 720px;
+
+   
+}
+.wrapper {
+    height: 371px;
+    width: 352px;
+    background-color: #fff;
+    margin: 0 0 0 542px;
+    border-radius: 10px;
+   position: relative;
+   top: 140px;
+   box-shadow: 4px 7px 68px -23px rgba(0,0,0,0.6);
+   -webkit-box-shadow: 4px 7px 68px -23px rgba(0,0,0,0.6);
+   -moz-box-shadow: 4px 7px 68px -23px rgba(0,0,0,0.6);
+}
+.image img{
+    width: 352px;
+    height: 141px;
+    border-radius: 10px;
+}
+.profile-section {
+    height:230px; 
+    text-align: center;
+    transform: translateY(-50px);
+   
+}
+.profile-section img {
+    border-radius: 50%;
+    border: 7px solid #fff;
+
+}
+.age {
+    color: var(--clr-dark-gray);
+    margin-left: 10px;
+ 
+}
+ h1 {
+ color: var(--clr-very-dark-desaturated-blue);
+ font-size: 1.2rem;
+}
+p {
+    color: var(--clr-dark-grayish-blue);
+    margin-bottom: 24px;
+}
+.counter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2px 47px 0 47px;
+    border-top: 1px solid hsl(0, 0%, 59%,0.5);
+}
+.counter p {
+    text-transform: capitalize;
+    transform: translateY(-7px);
+    font-size: 0.7rem;
+}
+.counter h1 {
+    font-size: 1.2rem;
+}
+
+.body-img {
+  display: inline-block;
+  height: 600px;
+}
+.top-pattern {
+      transform: translateY(-50%);
+      position: absolute;
+      left: 30px;
+
+}
+.bottom-pattern {
+   position: absolute;
+   right: -90px;
+   transform: translateY(50%);
+}
+
